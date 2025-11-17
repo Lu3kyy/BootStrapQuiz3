@@ -1,7 +1,7 @@
 
-/* NAVBAR */
+
 .custom-navbar {
-  background-color: #CEA2E6;      /* light purple */
+  background-color: #CEA2E6;      
   height: 161px;
   display: flex;
   align-items: center;
@@ -14,9 +14,9 @@
 
 /* HEADER */
 .hero-section {
-  background-color: #AFE4E8;      /* aqua background */
+  background-color: #AFE4E8;      
   height: 401px;
-  border-top: none;               /* connects to navbar border */
+  border-top: none;               
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,10 +25,165 @@
 }
 
 
-/* BUTTON */
+
 .hero-btn {
   position: absolute;
   left: 120px;
   top: 230px;
+}
+
+
+
+
+.anime-cards {
+  width: 1700px;
+  height: 390px;
+  margin: 160px auto 0;   
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.anime-cards .card {
+  width: 320px;
+  border: 1px solid #dddddd;
+}
+
+
+.anime-cards .card-img-top {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+
+.anime-cards .card-body {
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.anime-cards .card-title {
+  color: #666666;
+}
+
+.anime-cards .btn.card-btn {
+  font-size: 14px;
+}
+
+
+.anime-cards .btn-blue  { background-color: #0d6efd; color: #ffffff; }
+.anime-cards .btn-green { background-color: #198754; color: #ffffff; }
+.anime-cards .btn-red   { background-color: #dc3545; color: #ffffff; }
+.anime-cards .btn-white { background-color: #ffffff; color: #000000; border: 2px solid #000000; }
+.anime-cards .btn-yellow{ background-color: #ffc107; color: #ffffff; }
+
+
+.anime-list-wrapper {
+  width: 540px;
+  height: 275px;
+  margin: 80px auto 0;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.anime-list-box {
+  width: 560px;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+}
+
+.anime-list-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+}
+
+
+.title-row {
+  background-color: #ffffff;
+}
+
+.blue-row {
+  background-color: #0066e6;
+  color: #000000;
+}
+
+.red-row {
+  background-color: #e60000;
+  color: #000000;
+}
+
+.pink-row {
+  background-color: #ff00ff;
+  color: #000000;
+}
+
+.teal-row {
+  background-color: #afe4e8;
+  color: #000000;
+}
+
+
+.three-cards {
+  width: 1315px;
+  height: 390px;
+  margin: 80px auto 0;      
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.three-cards .card {
+  width: 320px;
+  background-color: #ffffff;
+}
+
+
+.three-cards .card-img-top {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+
+.three-cards .card-body {
+  padding: 15px;
+}
+
+.three-cards .card-title {
+  margin-bottom: 20px;
+  color: #666666;
+}
+
+
+.three-btn {
+  background-color: #0d6efd;
+  color: #ffffff;
+  border: none;
+  padding: 6px 20px;
+}
+
+
+.three-cards .card:nth-child(1) {
+  margin-right: 140px;
+}
+
+.three-cards .card:nth-child(2) {
+  margin-right: 60px;   
+}
+
+/* FOOTER */
+.site-footer {
+  background-color: #e3afff;  
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
